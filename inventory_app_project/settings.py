@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-ky(08o=ppjv)7x67ia=-+8v&1fhzfk^+e$^2l7)p670%y_3fo)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = [
+    'localhost',
+    'pranav915-inventory-app-api.herokuapp.com']
 
 
 # Application definition
