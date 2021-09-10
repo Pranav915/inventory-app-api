@@ -9,7 +9,7 @@ class Club(models.Model):
 
     def __str__(self):
         """Return String Representation of user"""
-        return self.email
+        return self.club_name
 
 
 

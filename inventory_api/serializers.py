@@ -5,3 +5,5 @@ class ClubSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.Club
         fields = ('id', 'club_name', 'owner_name', 'club_logo')
+    
+    
